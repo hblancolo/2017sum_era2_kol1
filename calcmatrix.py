@@ -1,11 +1,13 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
 
-from matrix import MatrixOperations
+from matrix import Matrix
 
-matrixCalculator = MatrixOperations()
+matrix_1 = Matrix(4,5,6,7)
+matrix_2 = Matrix(1,1,1,1)
 
-matrix_1 = 1
-matrix_2 = 2
-matrix_3 = matrixCalculator.add(matrix_1, matrix_2)
+print(matrix_2)
+
+matrix_3 = matrix_1 + matrix_2
 print(matrix_3)
+
